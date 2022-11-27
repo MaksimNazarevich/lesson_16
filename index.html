@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/style.css">
+    <title>Lesson 16</title>
+</head>
+<body>
+    <div class="wrapper">
+        <main class="page">
+            <section class="drop-us">
+                <div class="drop-us__container">
+                    <div class="drop-us__body">
+                        <div class="drop-us__image">
+                    <img src="img/illustration.png" alt="illustration" class="drop-us__img">
+                        </div>
+                        <div class="drop-us__form form">
+                    <div class="drop-us__title title">
+                        <div class="title__top">Any questions?</div>
+                        <div class="title__bottom">Drop us a line</div>
+                    </div>
+                    <form action="#" class="form">
+                        <div class="form__content">
+                            <div class="form__lines">
+                                <div class="form__column-1 column-form">
+                                    <div class="column-form__item">
+                                        <label for="name" class="form__label">First Name*</label>
+                                        <input id="name" required autocomplete="off" type="text" name="name" placeholder="Your first name" class="form__input">
+                                    </div>
+                                    <div class="column-form__item">
+                                        <label class="form__label" for="email-adress">Email*<label>
+                                        <input class="form__input" id="email-adress" required autocomplete="off" placeholder="Your working email" name="mail"           type="email">
+                                    </div>
+                                </div>
+
+                                <div class="form__column-2 column-form">
+                                    <div class="column-form__item">
+                                        <label for="last-name" class="form__label">Last Name*</label>
+                                        <input id="last-name" required autocomplete="off" type="text" name="last-name" placeholder="Your last name" class="form__input">
+                                    </div>
+                                    <div class="column-form__item">
+                                        <label class="form__label" for="phone">Phone<label>
+                                        <input class="form__input" id="phone" autocomplete="off" placeholder="Your phone number" name="phone" type="tel">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form__massage">
+                                <label for="message" class="form__label">Message*</label>
+                                <textarea id="message" autocomplete="off" name="message" placeholder="Your message" class="form__area"></textarea>
+                            </div>
+                            <!-- Радіо ==================================================================-->
+                            <div class="radio-buttons">
+                                <div class="radio-buttons__title">
+                                    Choose your sex
+                                </div>
+                                <div class="radio-buttons__body">
+                                    <div class="form__radio">
+                                        <input checked class="form__input-radio" id="sex-01" required autocomplete="off" value="man" name="sex" type="radio">
+                                        <label class="form__label-radio" for="sex-01"><span class="label__text">Man</span></label>
+                                    </div>
+                                    <div class="form__radio">
+                                        <input checked class="form__input-radio" id="sex-02" required autocomplete="off" value="cat" name="sex" type="radio">
+                                        <label class="form__label-radio" for="sex-02"><span class="label__text">Woman</span</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ============================================================= -->
+                            <div class="form__actions">
+                                <div class="checkbox">
+                                    <input id="agreement" autocomplete="off" type="checkbox" value="yes" name="car" class="checkbox__input">
+                                    <label for="agreement" class="checkbox__label"><span class="checkbox__text">I agree to receive communications from Createx Online School</span></label>
+                                </div>
+                                <div class="form__submit">
+                                    <button type="submit" class="form__button button"><span>Send message</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>    
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

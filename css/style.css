@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+
+body{
+	font-family: "Lato";
+	color: #424551;
+}
+
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main{
+	flex-grow: 1;
+}
+
+[class*="__container"]{
+	max-width: 1245px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.drop-us {
+    padding: 20px;
+	
+}
+
+.drop-us__body{
+    display: flex;
+	gap: 105px;
+}
+
+.drop-us__image {
+	flex: 1 0 auto;
+}
+.drop-us__img {
+	max-width: 100%;
+}
+
+.drop-us__title{
+	padding-bottom: 40px;
+}
+
+.form__label{
+	line-height: 160%;
+	color: #424551;
+}
+
+.form__lines {
+	display: flex;
+	column-gap: 25px;
+}
+
+.form__column-1,
+.form__column-2 {
+	display: flex;
+	flex-direction: column;
+	row-gap: 24px;
+	flex-grow: 1;
+}
+
+.form__input {
+	background: #FFFFFF;
+	border: 1px solid #D7DADD;
+	border-radius: 4px;
+	padding: 13px 16px;
+	margin-top: 8px;
+
+}
+
+.form__input::placeholder,
+.form__area::placeholder{
+	line-height: 160%;
+	color: #9A9CA5;
+}
+
+.form__massage {
+	padding:24px 0;
+}
+.form__area {
+	width: 100%;
+	padding: 15px;
+	height: 150px;
+	resize: vertical;
+	border: 1px solid #D7DADD;
+	border-radius: 4px;
+	margin-top: 8px;
+}
+
+.form__actions {
+	display: flex;
+	justify-content: space-between;
+}
+
+.checkbox {
+	position: relative;
+	flex: 0 1 50%;
+	
+}
+.checkbox__input {
+	position: absolute;
+	width: 0;
+	height: 0;
+	opacity: 0;
+	
+}
+
+.checkbox__input:checked + .checkbox__label::before {
+	background:#ff3f3a url('../img/check.svg') center / 70% no-repeat;
+}
+.checkbox__label {
+	cursor: pointer;
+	display: inline-flex;
+	gap: 10px;
+}
+.checkbox__label::before{
+	content:"";
+	flex: 0 0 30px;
+	width: 30px;
+	height: 30px;
+	border-radius: 5px;
+	outline: 1px solid #D7DADD;
+}
+.checkbox__text {
+	align-self: center;
+	line-height: 160%;
+}
+.form__submit {
+	flex: 0 1 50%;
+}
+.form__button {
+	width: 100%;
+}
+
+.radio-buttons {
+	display: flex;
+}
+
+.radio-buttons__title {
+	align-self: center;
+	font-weight: 700;
+}
+
+.form__radio {
+	position: relative;
+	padding-left: 25px;
+}
+.form__input-radio {
+	position: absolute;
+	width: 0;
+	height: 0;
+	opacity: 0;
+}
+
+.radio-buttons{
+	padding: 30px 0 20px 0;
+}
+
+.form__input-radio:checked + .form__label-radio::before {
+	background:#ff3f3a url('../img/Plate.png') center / 70% no-repeat;
+}
+
+
+
+.form__label-radio {
+	cursor: pointer;
+	display: inline-flex;
+	gap: 10px;
+}
+
+.form__label-radio::before{
+	content:"";
+	flex: 0 0 30px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	outline: 1px solid #D7DADD;
+}
+
+.label__text{
+	align-self: center;
+	line-height: 160%;
+}
