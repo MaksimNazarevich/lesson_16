@@ -35,7 +35,7 @@ body{
 }
 
 .drop-us__image {
-	flex: 1 0 auto;
+	flex: 1 1 auto;
 }
 .drop-us__img {
 	max-width: 100%;
